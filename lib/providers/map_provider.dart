@@ -66,7 +66,7 @@ class MapTypeProvider with ChangeNotifier {
     }
   }
 
-//......................................update the current location..........................//
+//.........................update the current location..........................//
   Future<void> updateCurrentLocation() async {
     userLocation = await getCurrentLocation();
     if (userLocation != null) {
