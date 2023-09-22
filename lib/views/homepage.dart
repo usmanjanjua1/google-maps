@@ -53,7 +53,6 @@ class _HomePageState extends State<HomePage> {
             trafficEnabled: true,
             //  Provider.of<MapTypeProvider>(context, listen: true)
             //     .isTrafficLayerEnabled,
-            // onMapCreated: _onMapCreated,
             mapType: Provider.of<MapTypeProvider>(context, listen: true)
                 .currentMapType,
             initialCameraPosition:
