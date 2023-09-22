@@ -54,7 +54,7 @@ class MapTypeProvider with ChangeNotifier {
     notifyListeners();
   }
 
-//....................................get current location..............................//
+//.........................get current location..............................//
   Future<LatLng> getCurrentLocation() async {
     try {
       final Position position = await Geolocator.getCurrentPosition(
