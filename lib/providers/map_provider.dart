@@ -62,7 +62,7 @@ class MapTypeProvider with ChangeNotifier {
       return LatLng(position.latitude, position.longitude);
     } catch (e) {
       print('Error getting current location: $e');
-      return LatLng(31.5204, 74.3587);
+      return const LatLng(31.5204, 74.3587);
     }
   }
 
