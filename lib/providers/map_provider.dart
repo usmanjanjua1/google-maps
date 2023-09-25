@@ -13,7 +13,7 @@ class MapTypeProvider with ChangeNotifier {
 
   CameraPosition get currentPosition => _currentPosition;
   Marker? get marker => _marker;
-  LatLng userLocation = LatLng(31.5204, 74.3587);
+  LatLng userLocation = const LatLng(31.5204, 74.3587);
 
   // Marker? get userlocation => userlocation;
   CameraPosition _currentPosition =
