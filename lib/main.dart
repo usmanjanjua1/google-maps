@@ -15,8 +15,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider<MapTypeProvider>(
-          create: (context) => MapTypeProvider(),
-        ),
+            create: (context) => MapTypeProvider()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
