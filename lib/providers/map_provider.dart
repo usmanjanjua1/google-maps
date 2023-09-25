@@ -37,7 +37,7 @@ class MapTypeProvider with ChangeNotifier {
         positionParam: position,
       );
     }
-    //...............................If a marker donot exists......................................//
+    //...............................If a marker does not exists......................................//
     else {
       _marker = Marker(
           markerId: MarkerId(markerId),
