@@ -70,7 +70,7 @@ class MapTypeProvider with ChangeNotifier {
   Future<void> updateCurrentLocation() async {
     userLocation = await getCurrentLocation();
     if (userLocation != null) {
-      _currentPosition = CameraPosition(target: userLocation, zoom: 14.0);
+      _currentPosition = CameraPosition(target: userLocation, zoom: 8.0);
       notifyListeners();
     }
   }
