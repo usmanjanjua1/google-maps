@@ -48,7 +48,7 @@ class MapTypeProvider with ChangeNotifier {
     notifyListeners();
   }
 
-//.......................................Remove marker....................................................//
+//.......................................Remove marker..................................//
   void removeMarker() {
     _marker = null;
     notifyListeners();
